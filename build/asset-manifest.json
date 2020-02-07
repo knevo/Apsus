@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/talazenkot/Appsus/static/css/main.37164905.chunk.css",
+    "main.js": "/talazenkot/Appsus/static/js/main.8eb991ed.chunk.js",
+    "main.js.map": "/talazenkot/Appsus/static/js/main.8eb991ed.chunk.js.map",
+    "runtime-main.js": "/talazenkot/Appsus/static/js/runtime-main.32c0d6ca.js",
+    "runtime-main.js.map": "/talazenkot/Appsus/static/js/runtime-main.32c0d6ca.js.map",
+    "static/js/2.10335be9.chunk.js": "/talazenkot/Appsus/static/js/2.10335be9.chunk.js",
+    "static/js/2.10335be9.chunk.js.map": "/talazenkot/Appsus/static/js/2.10335be9.chunk.js.map",
+    "index.html": "/talazenkot/Appsus/index.html",
+    "precache-manifest.97d623358bee250a80ab9832839d3737.js": "/talazenkot/Appsus/precache-manifest.97d623358bee250a80ab9832839d3737.js",
+    "service-worker.js": "/talazenkot/Appsus/service-worker.js",
+    "static/css/main.37164905.chunk.css.map": "/talazenkot/Appsus/static/css/main.37164905.chunk.css.map",
+    "static/js/2.10335be9.chunk.js.LICENSE.txt": "/talazenkot/Appsus/static/js/2.10335be9.chunk.js.LICENSE.txt",
+    "static/media/main.css": "/talazenkot/Appsus/static/media/main.595c59ed.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.32c0d6ca.js",
+    "static/js/2.10335be9.chunk.js",
+    "static/css/main.37164905.chunk.css",
+    "static/js/main.8eb991ed.chunk.js"
+  ]
+}
