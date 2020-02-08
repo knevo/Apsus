@@ -38,7 +38,7 @@ export default class Home extends React.Component {
         if (!this.state.notes) return <div>Loading....</div>
         return (
             <section className='main-keep'>
-                <AddNote onAdd={ this.loadNotes }></AddNote>
+                <AddNote loadNotes={ this.loadNotes }></AddNote>
 
                 { this.state.isTherePinned && <h3><i className="fas fa-thumbtack"></i></h3> }
                 { this.state.isTherePinned && <NoteList pinnedNotes={ true } handleReload={ this.loadNotes } notes={ this.state.notes.filter(note => note.isPinned) }></NoteList> }

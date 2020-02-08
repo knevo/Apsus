@@ -12,19 +12,18 @@ export default class AddNote extends React.Component {
     }
 
     componentDidMount() {
-        addNote('txt', { txt: '' }, true).then((draftNote) => this.setState({ draftNote }))
+        // addNote('txt', { txt: '' }, true).then((draftNote) => this.setState({ draftNote }))
     }
 
     onInputChange = (ev) => {
         this.setState({ text: ev.target.value })
-
     }
     onAddNote = (ev) => {
         ev.preventDefault()
         if (!this.state.text) return
         const details = this.makeDetails()
         addNote(this.state.type, details)
-            .then(this.props.onAdd);
+            .then(this.props.loadNotes);
         eventBusService.callModal('updatesBox', { type: 'success', message: 'Note added Successfully!' });
 
         this.setState({ text: '' })
