@@ -15,7 +15,7 @@ export default class BooksList extends React.Component {
             name: '',
             price: 200
         },
-        booksPerPage: 10,
+        booksPerPage: 14,
         currentPage: 1,
         maxPage: 5
     }
@@ -58,7 +58,7 @@ export default class BooksList extends React.Component {
         return (
             <div className="books-list-wrapper">
                 <section className="book-list-options flex space-between">
-                    <PaginationMenu currentPage={ this.state.currentPage } maxPage={ this.state.maxPage } />
+                    <PaginationMenu history={this.props.history} currentPage={ this.state.currentPage } maxPage={ this.state.maxPage } />
                     <BooksAddFromSearch loadBooks={ this.loadBooks } />
                     <BooksFilter onFilter={ this.onFilter } />
                 </section>
